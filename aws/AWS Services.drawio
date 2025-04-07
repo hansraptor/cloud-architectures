@@ -1,9 +1,24 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.2.5">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="All">
-    <mxGraphModel dx="2070" dy="5737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="828" dy="4311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-18" value="Generic group" style="fillColor=none;strokeColor=light-dark(#5A6C86,#FF7F93);dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;strokeWidth=10;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="-1940" width="870" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-2" value="" style="fillColor=none;strokeColor=light-dark(#5A6C86,#0E9D86);dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;strokeWidth=10;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-1680" width="1040" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-16" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="960" y="-1480" width="582" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-15" value="" style="fillColor=none;strokeColor=light-dark(#5A6C86,#0E9D86);dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;strokeWidth=8;" vertex="1" parent="Me6KZ-e09-LLOQmQ4gK6-16">
+          <mxGeometry width="582" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-13" value="WorkSpaces Family&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Virtual desktop services for every use case and&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;every worker, anywhere in the world&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.workspaces;labelPosition=right;spacingLeft=15;" vertex="1" parent="Me6KZ-e09-LLOQmQ4gK6-16">
+          <mxGeometry width="78" height="78" as="geometry" />
+        </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-307" value="" style="fillColor=none;strokeColor=light-dark(#5A6C86,#FF7CFF);dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;strokeWidth=10;" parent="1" vertex="1">
           <mxGeometry x="580" y="-790" width="1590" height="720" as="geometry" />
         </mxCell>
@@ -296,7 +311,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-101" value="&lt;b&gt;Blockchain&lt;/b&gt;&lt;div&gt;Easily create Hyperledger Fabric and Ethereum blockchain networks&lt;/div&gt;&lt;div&gt;that can be immutably copied to QLDB for analytics&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_blockchain;" parent="1" vertex="1">
-          <mxGeometry x="3270" y="120" width="78" height="78" as="geometry" />
+          <mxGeometry x="3190" y="50" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-102" value="Quantum Ledger Database&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Fully managed, inherently immutable, transparent and cryptographically&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;verifiable ledger database owned by a central trusted authority&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.quantum_ledger_database;" parent="1" vertex="1">
           <mxGeometry x="3010" y="-678" width="78" height="78" as="geometry" />
@@ -811,6 +826,54 @@
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-310" value="Command Line Interface (CLI)&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;The terminal tool that allows you to interact with AWS&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;(one of the primary ways)&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.command_line_interface;" parent="1" vertex="1">
           <mxGeometry x="1558" y="-352" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-1" value="End user computing" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=48;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.desktop_and_app_streaming;labelPosition=right;spacingLeft=15;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-1680" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-3" value="AppStream 2.0&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Fully managed service that allows you to stream&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;desktop applications anywhere in the world&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.appstream_20;" vertex="1" parent="1">
+          <mxGeometry x="700" y="-1480" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-4" value="WorkSpaces&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Fully managed cloud desktop service offering&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Windows and Linux desktops anywhere in the&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;world and, you only pay for the WorkSpaces&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;you launch&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.workspaces;" vertex="1" parent="1">
+          <mxGeometry x="1337" y="-1370" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-7" value="WorkSpaces Core&#xa;Virtual desktop infrastructure (VDI) and&#xa;APIs for third-party VDI software" style="group;fontStyle=0;fontColor=light-dark(#000000,#BDC7D4);labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1063" y="-1358" width="77" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-6" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=light-dark(#FFFFFF,#0E9D86);" vertex="1" parent="Me6KZ-e09-LLOQmQ4gK6-7">
+          <mxGeometry width="77" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-5" value="" style="sketch=0;outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.workspaces_family_amazon_workspaces_core;perimeterSpacing=0;fillColor=light-dark(#FFFFFF,#000000);strokeColor=light-dark(#000000,#0E9D86);strokeWidth=10;gradientColor=none;" vertex="1" parent="Me6KZ-e09-LLOQmQ4gK6-7">
+          <mxGeometry x="3.4500000000000455" y="3.5" width="70.09" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-8" value="WorkSpaces Thin Client&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;A physical device that works with AWS EUC&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;to provide users with cloud desktops&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.workspaces_thin_client;" vertex="1" parent="1">
+          <mxGeometry x="1064" y="-1148" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-11" value="WorkSpaces Web (a.k.a., Secure Browser)&#xa;A fully managed workspace built specifically to&#xa;facilitate secure access to internal websites and&#xa;SaaS applications from existing web browsers" style="group;fontStyle=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontColor=light-dark(#000000,#BDC7D4);" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1345" y="-1160" width="77" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#0E9D86);strokeColor=none;" vertex="1" parent="Me6KZ-e09-LLOQmQ4gK6-11">
+          <mxGeometry width="77" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-9" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=light-dark(#01A88D,#000000);strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.workspaces_workspaces_web;" vertex="1" parent="Me6KZ-e09-LLOQmQ4gK6-11">
+          <mxGeometry x="8.460000000000036" y="12" width="60.08" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-12" value="WorkLink (superceded by Secure Browser)&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;A fully managed workspace built specifically to&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;facilitate secure access to internal websites and&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;SaaS applications from existing web browsers&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.worklink;" vertex="1" parent="1">
+          <mxGeometry x="692" y="-1268" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-17" value="Front-end web &amp;amp; mobile services" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=48;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mobile;labelPosition=right;spacingLeft=15;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="-1940" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-19" value="Amplify" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.amplify;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="-1780" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-20" value="AppSync" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#E7157B,#FF7F93);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.appsync;" vertex="1" parent="1">
+          <mxGeometry x="2341" y="-1550" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-21" value="Device Farm" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.device_farm;" vertex="1" parent="1">
+          <mxGeometry x="2495" y="-1538" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-22" value="Location Service" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.location_service;" vertex="1" parent="1">
+          <mxGeometry x="2635" y="-1530" width="78" height="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
