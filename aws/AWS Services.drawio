@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.2.5">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="All">
-    <mxGraphModel dx="731" dy="4192" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1774" dy="5466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-35" value="" style="fillColor=none;strokeColor=light-dark(#5A6C86,#61820B);dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;strokeWidth=10;" vertex="1" parent="1">
+          <mxGeometry x="3320" y="-2380" width="1630" height="930" as="geometry" />
+        </mxCell>
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-18" value="" style="fillColor=none;strokeColor=light-dark(#5A6C86,#FF7F93);dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;strokeWidth=10;" vertex="1" parent="1">
           <mxGeometry x="1990" y="-1940" width="940" height="560" as="geometry" />
         </mxCell>
@@ -938,9 +941,6 @@
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-34" value="TwinMaker&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Allows you to create digital twins of real-world systems like&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;buildings, factories, industrial equipment and, production lines.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.iot_twinmaker;" vertex="1" parent="1">
           <mxGeometry x="4279" y="-1680" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-35" value="" style="fillColor=none;strokeColor=light-dark(#5A6C86,#61820B);dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;strokeWidth=10;" vertex="1" parent="1">
-          <mxGeometry x="3320" y="-2380" width="689" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-36" value="CloudTrail" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudtrail;" vertex="1" parent="1">
           <mxGeometry x="426" y="1192" width="78" height="78" as="geometry" />
         </mxCell>
@@ -956,11 +956,11 @@
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-44" value="Used for analysis" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Me6KZ-e09-LLOQmQ4gK6-26" target="Me6KZ-e09-LLOQmQ4gK6-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-47" value="FreeRTOS" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.freertos;" vertex="1" parent="1">
-          <mxGeometry x="4036" y="-1338" width="78" height="78" as="geometry" />
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-47" value="FreeRTOS&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;A microcontroller operating system that based on an OS with the same&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;name but, extended with libraries that make it easier for small, low-power&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;devices to connect to AWS Cloud services&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.freertos;" vertex="1" parent="1">
+          <mxGeometry x="4590" y="-2090" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-50" value="Partner Device Catalog" style="group;fontColor=light-dark(#000000,#BDC7D4);labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="4187" y="-1346" width="78" height="78" as="geometry" />
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-50" value="Partner Device Catalog&#xa;Helps you find devices and hardware that work with AWS&#xa;in order to build IoT solutions" style="group;fontColor=light-dark(#000000,#BDC7D4);labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="4560" y="-2250" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-49" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#E7157B,#61820B);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.service_catalog;" vertex="1" parent="Me6KZ-e09-LLOQmQ4gK6-50">
           <mxGeometry width="78" height="78" as="geometry" />
