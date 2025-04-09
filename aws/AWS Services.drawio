@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.9">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="All">
-    <mxGraphModel dx="866" dy="4082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="900" dy="4417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1169,22 +1169,19 @@
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-137" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=light-dark(#232F3D,#000000);strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.source_code;" parent="Me6KZ-e09-LLOQmQ4gK6-135" vertex="1">
           <mxGeometry x="53" y="46" width="20.46" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-144" value="SageMaker Canvas" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#01A88D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sagemaker_canvas;" parent="1" vertex="1">
-          <mxGeometry x="2540" y="-3028" width="78" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-145" value="Ground Truth" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sagemaker_ground_truth;" parent="1" vertex="1">
-          <mxGeometry x="2700" y="-3028" width="78" height="78" as="geometry" />
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-144" value="SageMaker Canvas&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;A point-and-click UI with Q Developer for guidance&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;allows users to generate ML predictions without any&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;prior ML or coding experience&lt;/span&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#01A88D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sagemaker_canvas;" parent="1" vertex="1">
+          <mxGeometry x="2440" y="-3049" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-146" value="&lt;font style=&quot;&quot;&gt;AI Data Labelling&lt;/font&gt;" style="editableCssRules=.*;html=1;shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnY9Imh0dHBzOi8vdmVjdGEuaW8vbmFubyIgd2lkdGg9IjM3Ny42MDkwNzg2ODcyMTAwNiIgaGVpZ2h0PSIzMDYuMjk2NTE2MDQzNTQ3NzQiIHZpZXdCb3g9IjAuMDE5MDAwMDAxMjUxNjk3NTQgMC4yMzIwMDAwMDgyMjU0NDA5OCA5OS45MDkwMDQyMTE0MjU3OCA4MS4wNDEwMDAzNjYyMTA5NCIgc3R5bGU9ImNvbG9yLXNjaGVtZTogbGlnaHQgZGFyazsiPiYjeGE7PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3QwIHsgZmlsbDogbGlnaHQtZGFyayhyZ2IoMTAyLCAxNTcsIDI0NiksIHJnYigxNCwgMTU3LCAxMzQpKTsgfSAuc3QxIHsgZmlsbDogbGlnaHQtZGFyayhyZ2IoMTc0LCAyMDMsIDI1MCksIHJnYigxNCwgMTU3LCAxMzQpKTsgfSAuc3QyIHsgZmlsbDogbGlnaHQtZGFyayhyZ2IoNjYsIDEzMywgMjQ0KSwgcmdiKDE0LCAxNTcsIDEzNCkpOyB9IDwvc3R5bGU+JiN4YTsJPHBhdGggY2xhc3M9InN0MCIgZD0iTTI1LjE4My4yMzJMNy4zNTMgMzcuMzY2LjA0OCAzNy4zM2wtLjAyOSA2IDI5LjQ5Mi4xNDZjMS4wODYgNi4xNSA2LjQ5OSAxMC44NzYgMTIuOTQ0IDEwLjg3NiA3LjIxOCAwIDEzLjE0NC01LjkyNyAxMy4xNDQtMTMuMTQ0cy01LjkyNy0xMy4xNDUtMTMuMTQ0LTEzLjE0NWMtNS45MjQgMC0xMC45NzYgMy45OTMtMTIuNTk3IDkuNDE1bC0xMi41NDQtLjA2MkwzMC44NDUgOS4yMzJoMzAuMTI5di05SDI1LjE4M3ptMTcuMjcxIDM0LjgzYTYuMDkgNi4wOSAwIDAgMSA2LjE0NSA2LjE0NSA2LjA5IDYuMDkgMCAwIDEtNi4xNDUgNi4xNDRjLTIuNjE2IDAtNC44MDktMS41NzMtNS43MDYtMy44NGwzLjIxNC4wMTYuMDI5LTYtMi40NzMtLjAxMmMxLjExMi0xLjQ5NiAyLjg5Ni0yLjQ1MyA0LjkzNi0yLjQ1M3pNMTcuODgyIDQ1LjcxMWwtOC4wODYgMy45NTEgMTUuNDQxIDMxLjYxMWgzNS43MzZ2LTlIMzAuODU4TDE3Ljg4MiA0NS43MTF6Ii8+JiN4YTsJPHBhdGggY2xhc3M9InN0MSIgZD0iTTYwLjk3NCA4MS4yNzNoMzguOTU0VjYwLjkyMmgtOS4wMDN2MTEuMzUySDYwLjk3NHptMC03Mi4wNDFoMjkuOTUxdjExLjc1NWg5LjAwM1YuMjMySDYwLjk3NHoiLz4mI3hhOwk8cGF0aCBjbGFzcz0ic3QyIiBkPSJNNzUuNzk2IDIwLjk4N3Y4Ljk5OWgyNC4xMzJ2LTguOTk5ek02MS4xMSAzNS45Mjh2OWgzOC44MTd2LTl6TTcxLjI3NCA1MS45MXY5LjAxMmgyOC42NTNWNTEuOTF6Ii8+JiN4YTs8L3N2Zz4=;fontStyle=1;fontColor=light-dark(#000000,#BDC7D4);" parent="1" vertex="1">
-          <mxGeometry x="2698" y="-2930" width="80" height="64" as="geometry" />
+          <mxGeometry x="2787" y="-2966" width="80" height="64" as="geometry" />
         </mxCell>
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-150" value="AI Feature Store" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=light-dark(#FF6A00,#0E9D86);strokeColor=none;shape=mxgraph.alibaba_cloud.ask_ack_container_service_for_kubernetes;fontStyle=1;fontColor=light-dark(#000000,#BDC7D4);labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="2540" y="-2774.32" width="75.5" height="86.65" as="geometry" />
         </mxCell>
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-156" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="2682" y="-2770" width="78" height="78" as="geometry" />
+          <mxGeometry x="3170" y="-2876" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-153" value="AI Autopilot" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sagemaker;labelPosition=center;spacingLeft=0;" parent="Me6KZ-e09-LLOQmQ4gK6-156" vertex="1">
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-153" value="AI Autopilot&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Automatically builds, trains and, tunes the&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;best ML model base on the data by providing&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;tabular data and choosing the column to predict&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sagemaker;labelPosition=center;spacingLeft=0;" parent="Me6KZ-e09-LLOQmQ4gK6-156" vertex="1">
           <mxGeometry width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-155" value="" style="group" parent="Me6KZ-e09-LLOQmQ4gK6-156" vertex="1" connectable="0">
@@ -1198,10 +1195,10 @@
             <mxRectangle x="2918" y="-2736.5" width="16.5" height="16.5" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-167" value="AI Clarify" style="group;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontColor=light-dark(#000000,#BDC7D4);fontStyle=1" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="2840" y="-2772" width="78" height="78" as="geometry" />
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-167" value="&#xa;" style="group;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontColor=light-dark(#000000,#BDC7D4);fontStyle=1" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="2916" y="-2820" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-159" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sagemaker;" parent="Me6KZ-e09-LLOQmQ4gK6-167" vertex="1">
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-159" value="&lt;b&gt;AI Clarify&lt;/b&gt;&lt;div&gt;Provides developers greater visibility into training&lt;/div&gt;&lt;div&gt;data and models to identify and limit bias and&lt;/div&gt;&lt;div&gt;explain predictions&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sagemaker;" parent="Me6KZ-e09-LLOQmQ4gK6-167" vertex="1">
           <mxGeometry width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-165" value="" style="group" parent="Me6KZ-e09-LLOQmQ4gK6-167" vertex="1" connectable="0">
@@ -1214,7 +1211,7 @@
           <mxGeometry x="9.578906460551025" y="8.64871155388164" width="22" height="22" as="geometry" />
         </mxCell>
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-174" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="2818" y="-2950" width="78" height="78" as="geometry" />
+          <mxGeometry x="3055" y="-2642" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-169" value="AI Edge" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sagemaker;container=0;" parent="Me6KZ-e09-LLOQmQ4gK6-174" vertex="1">
           <mxGeometry width="78" height="78" as="geometry" />
@@ -1307,7 +1304,7 @@
           <mxGeometry x="2962" y="-2400" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-224" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="2960" y="-2530" width="78" height="78" as="geometry" />
+          <mxGeometry x="2962" y="-2530" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-219" value="&lt;b&gt;AI Pipelines&lt;/b&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sagemaker;container=0;" parent="Me6KZ-e09-LLOQmQ4gK6-224" vertex="1">
           <mxGeometry width="78" height="78" as="geometry" />
@@ -1344,6 +1341,63 @@
         </mxCell>
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-229" value="Deep Learning Containers&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Docker images pre-installed with deep learning frameworks&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;for easy deployment of custom ML environments and can be&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;deployed on SageMaker, EKS, ECS or EC2 through ECR and&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;AWS Marketplace&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.deep_learning_containers;" parent="1" vertex="1">
           <mxGeometry x="154" y="-2110" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="510" y="-1990" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-1" value="Hugging Face&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Open-source NLP model provider whose models&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;are available as DL AMIs, DL Containers and on&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;SageMaker&lt;/span&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#01A88D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sagemaker_model;" vertex="1" parent="W_DcaWkSh4R2zv-vRci8-5">
+          <mxGeometry width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-3" value="í ¾í´—" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=none;fillColor=light-dark(#FFFFFF,#0E9D86);rotation=-30;size=7.816821969419834;container=0;fontSize=20;" vertex="1" parent="W_DcaWkSh4R2zv-vRci8-5">
+          <mxGeometry x="23" y="25.550000000000637" width="32" height="26.89" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-10" value="Hugging Face is available on SageMaker" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-1" target="GQwtv-Ke6I7whFhwhaPg-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="3598" y="-3240" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-13" value="PyTorch&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Open-source DL framework that&#39;s available&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;as DL AMIs, DL Containers and on&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;SageMaker&lt;/span&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#01A88D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sagemaker_model;" vertex="1" parent="W_DcaWkSh4R2zv-vRci8-12">
+          <mxGeometry width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-14" value="í ½í°" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=none;fillColor=light-dark(#FFFFFF,#0E9D86);rotation=-30;size=7.816821969419834;container=0;fontSize=20;" vertex="1" parent="W_DcaWkSh4R2zv-vRci8-12">
+          <mxGeometry x="23" y="25.550000000000637" width="32" height="26.89" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-15" value="PyTorch is available on SageMaker" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-13" target="GQwtv-Ke6I7whFhwhaPg-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-16" value="PyTorch is available on DL AMIs" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-13" target="Me6KZ-e09-LLOQmQ4gK6-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-17" value="PyTorch is available on DL Containers" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-13" target="Me6KZ-e09-LLOQmQ4gK6-229">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="3600" y="-3090" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-19" value="TensoreFlow&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Broad support is offered for this DL framework&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;enabling CV, NLP and speech translation. Available&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;on SageMaker, DL Containers and DL AMIs&lt;/span&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#01A88D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sagemaker_model;" vertex="1" parent="W_DcaWkSh4R2zv-vRci8-18">
+          <mxGeometry width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-20" value="TF" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=none;fillColor=light-dark(#FFFFFF,#0E9D86);rotation=-30;size=7.816821969419834;container=0;fontSize=20;" vertex="1" parent="W_DcaWkSh4R2zv-vRci8-18">
+          <mxGeometry x="23" y="25.550000000000637" width="32" height="26.89" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-21" value="TernsorFlow is available on SageMaker" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-19" target="GQwtv-Ke6I7whFhwhaPg-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-22" value="TensorFlow is available on DL Containers" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-19" target="Me6KZ-e09-LLOQmQ4gK6-229">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-23" value="TernsorFlow is available on DL AMIs" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-19" target="Me6KZ-e09-LLOQmQ4gK6-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Me6KZ-e09-LLOQmQ4gK6-145" value="Ground Truth" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sagemaker_ground_truth;" parent="1" vertex="1">
+          <mxGeometry x="2709" y="-2971" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-26" value="Hugging Face is available on DL AMIs" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-1" target="Me6KZ-e09-LLOQmQ4gK6-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-27" value="Hugging Face is available on DL Containers" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-3" target="Me6KZ-e09-LLOQmQ4gK6-229">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
