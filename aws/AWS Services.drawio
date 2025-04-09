@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.9">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="All">
-    <mxGraphModel dx="903" dy="4717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="843" dy="4643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="W_DcaWkSh4R2zv-vRci8-54" value="" style="fillColor=none;strokeColor=light-dark(#5A6C86,#FF81D9);dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;strokeWidth=10;" vertex="1" parent="1">
-          <mxGeometry x="6020" y="-3070" width="800" height="120" as="geometry" />
+          <mxGeometry x="6020" y="-3070" width="1040" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-74" value="" style="fillColor=none;strokeColor=light-dark(#5A6C86,#0E9D86);dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;strokeWidth=10;" parent="1" vertex="1">
           <mxGeometry x="101" y="-3230" width="4039" height="1410" as="geometry" />
@@ -1438,11 +1438,23 @@
         <mxCell id="W_DcaWkSh4R2zv-vRci8-52" value="Derived from Transcribe" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-48" target="Me6KZ-e09-LLOQmQ4gK6-100">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W_DcaWkSh4R2zv-vRci8-53" value="Management and Governance&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;You don&#39;t have to choose between faster innovation, controlling cost, compliance and security -- you can do all of it together&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=45;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.management_and_governance;labelPosition=right;spacingLeft=15;" vertex="1" parent="1">
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-53" value="Management and Governance&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;You don&#39;t have to choose between faster innovation, controlling cost, compliance and security -- you can do all of it together&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=45;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.management_and_governance;labelPosition=right;spacingLeft=15;" vertex="1" parent="1">
           <mxGeometry x="6020" y="-3070" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="W_DcaWkSh4R2zv-vRci8-55" value="Auto Scaling" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.autoscaling;" vertex="1" parent="1">
-          <mxGeometry x="6170" y="-2238" width="78" height="78" as="geometry" />
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-74" value="Auto Scaling can scale ECS" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-55" target="GQwtv-Ke6I7whFhwhaPg-239">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-75" value="Auto Scaling can scale DynamoDB tables" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-55" target="GQwtv-Ke6I7whFhwhaPg-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-76" value="Auto Scaling can scale Aurora Replicas" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-55" target="GQwtv-Ke6I7whFhwhaPg-261">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-77" value="Auto Scaling can scale EC2 instances" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-55" target="GQwtv-Ke6I7whFhwhaPg-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-55" value="Auto Scaling&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Monitors applications and automatically adjusts capacity&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;to maintain steady, predictable performance. It lets you build&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;scaling plans for EC2, ECS, DynamoDB tables and Aurora replicas&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.autoscaling;" vertex="1" parent="1">
+          <mxGeometry x="6452" y="-2904" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="W_DcaWkSh4R2zv-vRci8-56" value="Q Developer in chat apps" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=light-dark(#01A88D,#FF81D9);strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.q;" vertex="1" parent="1">
           <mxGeometry x="6340" y="-2237" width="78" height="78" as="geometry" />
