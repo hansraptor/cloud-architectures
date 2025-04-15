@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="All">
-    <mxGraphModel dx="757" dy="4246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3196" dy="5148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -139,6 +139,9 @@
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-5" value="&lt;b&gt;Elastic MapReduce&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;(EMR)&lt;/span&gt;&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;Big data platform uses Presto and Apache&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;Spark, Hive, HBase, Flink and Hudi&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.emr;" parent="GQwtv-Ke6I7whFhwhaPg-91" vertex="1">
           <mxGeometry x="790" y="190" width="78" height="78" as="geometry" />
         </mxCell>
+        <mxCell id="GQwtv-Ke6I7whFhwhaPg-55" value="&lt;b&gt;Clean Rooms&lt;/b&gt;&lt;div&gt;Provides a space in the AWS cloud where companies&lt;/div&gt;&lt;div&gt;can collaboratively analyse their collective datasets&lt;/div&gt;&lt;div&gt;without needing to directly share any of the under-&lt;/div&gt;&lt;div&gt;lying raw data&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.clean_rooms;" parent="GQwtv-Ke6I7whFhwhaPg-91" vertex="1">
+          <mxGeometry x="960" y="760" width="78" height="78" as="geometry" />
+        </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-94" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1760" y="2320" width="1280" height="880" as="geometry" />
         </mxCell>
@@ -257,9 +260,6 @@
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-58" value="Receive results in designated S3 bucket" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="GQwtv-Ke6I7whFhwhaPg-55" target="GQwtv-Ke6I7whFhwhaPg-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GQwtv-Ke6I7whFhwhaPg-55" value="&lt;b&gt;Clean Rooms&lt;/b&gt;&lt;div&gt;Provides a space in the AWS cloud where companies&lt;/div&gt;&lt;div&gt;can collaboratively analyse their collective datasets&lt;/div&gt;&lt;div&gt;without needing to directly share any of the under-&lt;/div&gt;&lt;div&gt;lying raw data&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.clean_rooms;" parent="1" vertex="1">
-          <mxGeometry x="2200" y="1158" width="78" height="78" as="geometry" />
-        </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-57" value="Load subscribed data into S3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="GQwtv-Ke6I7whFhwhaPg-56" target="GQwtv-Ke6I7whFhwhaPg-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -278,7 +278,7 @@
             <mxPoint x="2350" y="613" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GQwtv-Ke6I7whFhwhaPg-15" value="Data Catalog" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.glue_data_catalog;" parent="1" vertex="1">
+        <mxCell id="GQwtv-Ke6I7whFhwhaPg-15" value="&lt;b&gt;Data Catalog&lt;/b&gt;&lt;div&gt;A central metadata repository for data in S3&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.glue_data_catalog;" parent="1" vertex="1">
           <mxGeometry x="2230" y="1018" width="72" height="78" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-69" value="Outputs data lake into S3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="GQwtv-Ke6I7whFhwhaPg-66" target="GQwtv-Ke6I7whFhwhaPg-12" edge="1">
