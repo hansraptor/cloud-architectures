@@ -1532,7 +1532,7 @@
           <mxGeometry x="8240" y="-2692" width="67.5" height="54" as="geometry" />
         </mxCell>
         <mxCell id="W_DcaWkSh4R2zv-vRci8-88" value="Insights Dashboard" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=light-dark(#8C4FFF,#FF81D9);strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.opensearch_dashboards;" parent="1" vertex="1">
-          <mxGeometry x="8520" y="-2694.5" width="78" height="59" as="geometry" />
+          <mxGeometry x="8510" y="-2694.5" width="78" height="59" as="geometry" />
         </mxCell>
         <mxCell id="W_DcaWkSh4R2zv-vRci8-89" value="State Manager" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.state_manager;" parent="1" vertex="1">
           <mxGeometry x="8200" y="-2252" width="78" height="78" as="geometry" />
