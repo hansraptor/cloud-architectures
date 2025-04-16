@@ -1,9 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.12">
   <diagram name="Page-1" id="07nnad0YqxYMllLoAqNN">
-    <mxGraphModel dx="2265" dy="1290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="3883" dy="2211" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
-        <mxCell id="1" parent="0" />
+        <object label="POC" id="1">
+          <mxCell parent="0" />
+        </object>
         <mxCell id="I3rigS5n5Z_DNkKy_Ji--198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="I3rigS5n5Z_DNkKy_Ji--90" target="I3rigS5n5Z_DNkKy_Ji--110">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1120" y="1270" as="sourcePoint" />
@@ -304,6 +306,8 @@
         <mxCell id="I3rigS5n5Z_DNkKy_Ji--91" value="The dashboard is build from&lt;div&gt;the datasets declares in&lt;/div&gt;&lt;div&gt;QuickSight&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="1650" y="996.75" width="170" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="I3rigS5n5Z_DNkKy_Ji--201" value="Data integration" parent="0" />
+        <mxCell id="I3rigS5n5Z_DNkKy_Ji--202" value="AI and forecasting" parent="0" visible="0" />
       </root>
     </mxGraphModel>
   </diagram>
