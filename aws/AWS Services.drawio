@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="All">
-    <mxGraphModel dx="1242" dy="5128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1553" dy="5410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1011,7 +1011,7 @@
           <mxGeometry x="5220" y="-152" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-70" value="Secrets Manager" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.secrets_manager;" parent="1" vertex="1">
-          <mxGeometry x="2070" y="2020" width="78" height="78" as="geometry" />
+          <mxGeometry x="2091" y="2022" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-71" value="Integration for connected&lt;div&gt;device authentication&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Me6KZ-e09-LLOQmQ4gK6-67" target="Me6KZ-e09-LLOQmQ4gK6-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1543,11 +1543,29 @@
         <mxCell id="W_DcaWkSh4R2zv-vRci8-90" value="Inventory&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Allows you to collect and query configuration and&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;inventory of instances and their installed software&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;including apps, DHCP config, agent detail&lt;/span&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.inventory;" parent="1" vertex="1">
           <mxGeometry x="5700" y="-1540" width="78" height="78" as="geometry" />
         </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-41" value="Maintenance Window can schedule commands&lt;div&gt;to be executed on managed instances&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-91" target="W_DcaWkSh4R2zv-vRci8-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="W_DcaWkSh4R2zv-vRci8-91" value="Maintenance Window&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Define a recurring window during which instance&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;maintenance will take place, eliminating untimely&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;changes that may cause outages&lt;/span&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.maintenance_windows;" parent="1" vertex="1">
-          <mxGeometry x="5990" y="-1560" width="78" height="78" as="geometry" />
+          <mxGeometry x="6350" y="-1610" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-35" value="Patch Manager uses State Manager to&lt;div&gt;ensure patches are applied according to&lt;/div&gt;&lt;div&gt;defined schedules and compliance rules&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-93" target="W_DcaWkSh4R2zv-vRci8-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-37" value="Patch Manager integrates with Inventory&lt;div&gt;to provide detailed information about the&lt;/div&gt;&lt;div&gt;patches installed on instances&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-93" target="W_DcaWkSh4R2zv-vRci8-90">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W_DcaWkSh4R2zv-vRci8-93" value="Patch Manager&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Helps you select and deploy OS and software&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;patches across you instance fleet during a&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;pre-defined maintenance window&lt;/span&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.patch_manager;" parent="1" vertex="1">
           <mxGeometry x="5430" y="-1380" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-36" value="Automation workflows&lt;div&gt;can include&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;patching steps&lt;/span&gt;&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-94" target="W_DcaWkSh4R2zv-vRci8-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-40" value="Automation can include Distributor in its&lt;div&gt;workflows to automate deployment of&lt;/div&gt;&lt;div&gt;software packages&amp;nbsp;&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-94" target="W_DcaWkSh4R2zv-vRci8-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-42" value="Automation runbookd can be configured as&lt;div&gt;tasks that run within a given maintenance&lt;/div&gt;&lt;div&gt;window&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-94" target="W_DcaWkSh4R2zv-vRci8-91">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W_DcaWkSh4R2zv-vRci8-94" value="Automation&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Simplifies common maintenance tasks like&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;updating AMIs by backing apps into them,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;apply patches, update drivers and agents&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;with streamlines, repeatable and auditable&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;processes&lt;/span&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.automation;" parent="1" vertex="1">
           <mxGeometry x="5700" y="-1374" width="78" height="78" as="geometry" />
@@ -1555,10 +1573,28 @@
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-2" value="Parameter Store integrates with&lt;div&gt;KMS to facilitate encryption&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-95" target="GQwtv-Ke6I7whFhwhaPg-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W_DcaWkSh4R2zv-vRci8-95" value="Parameter Store&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;An encrypted repository for administrative information,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;such as passwords and database connection string,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;by integrating with KMS&lt;/span&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.parameter_store;" parent="1" vertex="1">
-          <mxGeometry x="6010" y="-1392" width="75" height="78" as="geometry" />
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-31" value="Parameters can be referenced&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Run Command&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;commands without hard-coding sensitive info&lt;/span&gt;&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-95" target="W_DcaWkSh4R2zv-vRci8-86">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NzK-lVKZz_vgO-4xwUXG-3" value="Install versioned software packages&lt;div&gt;defines in Distributor using Run Command&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-96" target="W_DcaWkSh4R2zv-vRci8-86">
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-32" value="Parameters can be referenced&lt;div&gt;in&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Automation scripts&lt;/span&gt;&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-95" target="W_DcaWkSh4R2zv-vRci8-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-33" value="Parameters can be referenced in State&lt;div&gt;Manager to define a consistent state&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-95" target="W_DcaWkSh4R2zv-vRci8-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-34" value="Parameter Store can reference secrets&lt;div&gt;allowing services the support Parameter&lt;/div&gt;&lt;div&gt;Store integration to retrieve secrets&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-95" target="Me6KZ-e09-LLOQmQ4gK6-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_DcaWkSh4R2zv-vRci8-95" value="Parameter Store&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;An encrypted repository for administrative information,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;such as passwords and database connection string,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;by integrating with KMS&lt;/span&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.parameter_store;" parent="1" vertex="1">
+          <mxGeometry x="6020" y="-1370" width="75" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-3" value="Install versioned software packages&lt;div&gt;defined in Distributor using Run Command&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-96" target="W_DcaWkSh4R2zv-vRci8-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-38" value="Distributor can schedule package&lt;div&gt;deployments using State Manager&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-96" target="W_DcaWkSh4R2zv-vRci8-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-39" value="Distributor integrates with Inventory to&lt;div&gt;provide detailed information about what\s&lt;/div&gt;&lt;div&gt;installed on your instances&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-96" target="W_DcaWkSh4R2zv-vRci8-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W_DcaWkSh4R2zv-vRci8-96" value="Distributor&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Centrally store and systematically distribute&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212)); font-weight: 400;&quot;&gt;versioned software packages (only), such&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212)); font-weight: 400;&quot;&gt;as&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212)); font-weight: 400;&quot;&gt;software&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212)); font-weight: 400;&quot;&gt;agents then,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 400; background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;install&lt;/span&gt;&lt;span style=&quot;font-weight: 400; background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;&amp;nbsp;them using&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400; background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;Run Command.&lt;/span&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.systems_manager_distributor;" parent="1" vertex="1">
@@ -1635,6 +1671,15 @@
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-28" value="" style="shape=mxgraph.signs.safety.no;html=1;pointerEvents=1;fillColor=light-dark(#000000,#121212);strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeWidth=1;" vertex="1" parent="NzK-lVKZz_vgO-4xwUXG-30">
           <mxGeometry x="18" y="48" width="26" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-43" value="Parameter Store parameters can&lt;div&gt;be read in Lambdas to be used&lt;/div&gt;&lt;div&gt;as configuration&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-95" target="GQwtv-Ke6I7whFhwhaPg-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-44" value="Maintenance Window can trigger Lambda&lt;div&gt;functions as part of its scheduled tasks&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-91" target="GQwtv-Ke6I7whFhwhaPg-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-45" value="Maintenance Window can trigger Step Functions&lt;div&gt;allowing for complex workflows during planned down-time&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W_DcaWkSh4R2zv-vRci8-91" target="GQwtv-Ke6I7whFhwhaPg-86">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
