@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="All">
-    <mxGraphModel dx="654" dy="4362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1229" dy="4634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -179,6 +179,9 @@
             <mxPoint x="1400" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-83" value="S3 can serve as origin for CloudFront&lt;div&gt;for content delivery and static websites&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GQwtv-Ke6I7whFhwhaPg-12" target="NzK-lVKZz_vgO-4xwUXG-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-12" value="&lt;b&gt;Simple Storage Service&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;(S3)&lt;/span&gt;&lt;/b&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" parent="1" vertex="1">
           <mxGeometry x="2910" y="1900" width="78" height="78" as="geometry" />
         </mxCell>
@@ -341,7 +344,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-101" value="&lt;b&gt;Blockchain&lt;/b&gt;&lt;div&gt;Easily create Hyperledger Fabric and Ethereum blockchain networks&lt;/div&gt;&lt;div&gt;that can be immutably copied to QLDB for analytics&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_blockchain;" parent="1" vertex="1">
-          <mxGeometry x="3190" y="50" width="78" height="78" as="geometry" />
+          <mxGeometry x="3195" y="20" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-102" value="Quantum Ledger Database&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Fully managed, inherently immutable, transparent and cryptographically&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;verifiable ledger database owned by a central trusted authority&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.quantum_ledger_database;" parent="1" vertex="1">
           <mxGeometry x="3010" y="-678" width="78" height="78" as="geometry" />
@@ -948,6 +951,9 @@
           <mxGeometry x="4019" y="-352" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-66" value="Allows connections to apps and services" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Me6KZ-e09-LLOQmQ4gK6-32" target="Me6KZ-e09-LLOQmQ4gK6-65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-86" value="Greengrass allows IoT devices&lt;div&gt;to run Lambda locally&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Me6KZ-e09-LLOQmQ4gK6-32" target="GQwtv-Ke6I7whFhwhaPg-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-32" value="Greengrass&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;An open-source edge runtime that allows connected devices&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;to run Lambda locally enabling them to act on their generated data,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;sync data and communicate with other connected devices&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;even when not connected to the internet. It helps you test and deploy&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;device software&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.greengrass;" parent="1" vertex="1">
@@ -1715,7 +1721,7 @@
           <mxGeometry x="6760" y="764" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-57" value="Route 53" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.route_53;" vertex="1" parent="1">
-          <mxGeometry x="6900" y="608" width="78" height="78" as="geometry" />
+          <mxGeometry x="7370" y="-230" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-61" value="Networking &amp;amp; Content Delivery" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=top;align=left;html=1;fontSize=48;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.networking_and_content_delivery;labelPosition=right;spacingLeft=15;" vertex="1" parent="1">
           <mxGeometry x="6510" y="-342" width="78" height="78" as="geometry" />
@@ -1750,6 +1756,9 @@
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-72" value="VPN" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.client_vpn;" vertex="1" parent="1">
           <mxGeometry x="6629" y="918" width="78" height="78" as="geometry" />
         </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-84" value="ELB can serve as origin for CloudFront&lt;div&gt;for Edge-enabled high availability&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-73" target="NzK-lVKZz_vgO-4xwUXG-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-73" value="Elastic Load Balancing" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_load_balancing;" vertex="1" parent="1">
           <mxGeometry x="6770" y="918" width="78" height="78" as="geometry" />
         </mxCell>
@@ -1761,6 +1770,18 @@
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-79" value="&lt;b&gt;Heading&lt;/b&gt;&lt;div&gt;Schmeading&lt;/div&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=none;shadow=0;dashed=0;shape=mxgraph.ios7.icons.wifi;pointerEvents=1;spacingTop=15;fontColor=light-dark(#000000,#BDC7D4);" vertex="1" parent="NzK-lVKZz_vgO-4xwUXG-77">
           <mxGeometry x="9.299999999999272" y="18" width="59.4" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-82" value="Shield can serve as origin for CloudFront&lt;div&gt;to protect against DDoS attacks&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-80" target="NzK-lVKZz_vgO-4xwUXG-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-80" value="Shield" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.shield;" vertex="1" parent="1">
+          <mxGeometry x="2169" y="1842" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-85" value="EC2 can serve as origin for CloudFront&lt;div&gt;for Edge-enabled compute&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GQwtv-Ke6I7whFhwhaPg-141" target="NzK-lVKZz_vgO-4xwUXG-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-87" value="CloudFront can execute&lt;div&gt;Lambdas at the Edge&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-64" target="GQwtv-Ke6I7whFhwhaPg-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
