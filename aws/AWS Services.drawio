@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="All">
-    <mxGraphModel dx="3489" dy="5209" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="522" dy="4039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1788,6 +1788,21 @@
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-87" value="CloudFront can execute&lt;div&gt;Lambdas at the Edge&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-64" target="GQwtv-Ke6I7whFhwhaPg-35">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-94" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="7570" y="-40" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-91" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#B17DFF);strokeColor=none;" vertex="1" parent="NzK-lVKZz_vgO-4xwUXG-94">
+          <mxGeometry width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-93" value="" style="group;spacingTop=18;fontColor=light-dark(#000000,#BDC7D4);" vertex="1" connectable="0" parent="NzK-lVKZz_vgO-4xwUXG-94">
+          <mxGeometry x="9" y="22" width="60" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-92" value="&lt;b&gt;Cloud Map&lt;/b&gt;&lt;div&gt;A cloud resource discovery service where you define&lt;/div&gt;&lt;div&gt;custom names for application resources and &lt;i&gt;it &lt;/i&gt;maintains&lt;/div&gt;&lt;div&gt;the updated location of these dynamically changing&lt;/div&gt;&lt;div&gt;resources, allowing your web services to always discover&lt;/div&gt;&lt;div&gt;the most up-to-date locations, improving app availability.&lt;/div&gt;&lt;div&gt;Uses health checks&lt;/div&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=light-dark(#0080F0,#000000);shadow=0;dashed=0;shape=mxgraph.ios7.icons.cloud;fillColor=none;spacingTop=18;fontColor=light-dark(#000000,#BDC7D4);" vertex="1" parent="NzK-lVKZz_vgO-4xwUXG-93">
+          <mxGeometry width="60" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-90" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=light-dark(#0080F0,#000000);shadow=0;dashed=0;shape=mxgraph.ios7.icons.map;fillColor=none;spacingTop=18;fontColor=light-dark(#000000,#BDC7D4);" vertex="1" parent="NzK-lVKZz_vgO-4xwUXG-93">
+          <mxGeometry x="20" y="16" width="20" height="14" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
