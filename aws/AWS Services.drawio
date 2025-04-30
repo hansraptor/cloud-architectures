@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="All">
-    <mxGraphModel dx="1244" dy="5048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="732" dy="4452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1801,8 +1801,22 @@
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-90" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=light-dark(#0080F0,#000000);shadow=0;dashed=0;shape=mxgraph.ios7.icons.map;fillColor=none;spacingTop=18;fontColor=light-dark(#000000,#BDC7D4);" vertex="1" parent="NzK-lVKZz_vgO-4xwUXG-93">
           <mxGeometry x="20" y="16" width="20" height="14" as="geometry" />
         </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-103" value="" style="container=1;collapsible=0;expand=0;recursiveResize=0;html=1;whiteSpace=wrap;strokeColor=#878D96;fillColor=none;strokeWidth=5;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="6870" y="-268" width="551" height="408" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-104" value="" style="shape=rect;fillColor=none;aspect=fixed;resizable=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeColor=none;part=1;spacingLeft=5;fontSize=14;" vertex="1" parent="NzK-lVKZz_vgO-4xwUXG-103">
+          <mxGeometry width="48" height="48" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-105" value="" style="fillColor=#878D96;shape=mxgraph.ibm_cloud.point-of-presence;strokeColor=none;dashed=0;outlineConnect=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;part=1;movable=0;resizable=0;rotatable=0;" vertex="1" parent="NzK-lVKZz_vgO-4xwUXG-104">
+          <mxGeometry width="24" height="24" relative="1" as="geometry">
+            <mxPoint x="12" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-106" value="" style="shape=rect;fillColor=#878D96;aspect=fixed;resizable=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeColor=none;part=1;spacingLeft=5;fontSize=14;" vertex="1" parent="NzK-lVKZz_vgO-4xwUXG-103">
+          <mxGeometry width="4" height="48" relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-102" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="6990" width="78" height="43" as="geometry" />
+          <mxGeometry x="7012" y="-4" width="78" height="43" as="geometry" />
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-95" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;Traditional POP&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Lives on the AWS network and caters&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;for a broader range of workloads&lt;/span&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.edge_location;strokeWidth=1;" vertex="1" parent="NzK-lVKZz_vgO-4xwUXG-102">
           <mxGeometry x="30" y="13" width="30" height="30" as="geometry" />
@@ -1811,7 +1825,7 @@
           <mxGeometry width="78" height="43" as="geometry" />
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-101" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="7220" y="-7" width="78" height="45" as="geometry" />
+          <mxGeometry x="7242" y="-11" width="78" height="45" as="geometry" />
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-100" value="" style="group" vertex="1" connectable="0" parent="NzK-lVKZz_vgO-4xwUXG-101">
           <mxGeometry x="36" y="5" width="23.079999999999927" height="40" as="geometry" />
@@ -1825,22 +1839,8 @@
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-98" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=4;strokeColor=light-dark(#000000,#B17DFF);shadow=0;dashed=0;shape=mxgraph.ios7.icons.cloud;fillColor=none;" vertex="1" parent="NzK-lVKZz_vgO-4xwUXG-101">
           <mxGeometry width="78" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="NzK-lVKZz_vgO-4xwUXG-103" value="" style="container=1;collapsible=0;expand=0;recursiveResize=0;html=1;whiteSpace=wrap;strokeColor=#878D96;fillColor=none;strokeWidth=5;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="6859" y="-268" width="551" height="408" as="geometry" />
-        </mxCell>
-        <mxCell id="NzK-lVKZz_vgO-4xwUXG-104" value="" style="shape=rect;fillColor=none;aspect=fixed;resizable=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeColor=none;part=1;spacingLeft=5;fontSize=14;" vertex="1" parent="NzK-lVKZz_vgO-4xwUXG-103">
-          <mxGeometry width="48" height="48" relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NzK-lVKZz_vgO-4xwUXG-105" value="" style="fillColor=#878D96;shape=mxgraph.ibm_cloud.point-of-presence;strokeColor=none;dashed=0;outlineConnect=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;part=1;movable=0;resizable=0;rotatable=0;" vertex="1" parent="NzK-lVKZz_vgO-4xwUXG-104">
-          <mxGeometry width="24" height="24" relative="1" as="geometry">
-            <mxPoint x="12" y="12" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NzK-lVKZz_vgO-4xwUXG-106" value="" style="shape=rect;fillColor=#878D96;aspect=fixed;resizable=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeColor=none;part=1;spacingLeft=5;fontSize=14;" vertex="1" parent="NzK-lVKZz_vgO-4xwUXG-103">
-          <mxGeometry width="4" height="48" relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-64" value="CloudFront&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;CDN service for low-latency, global delivery of&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;content and services through AWS Global&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Infrastructure and Edge&#39;ness.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Origins include&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: normal; background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;Shield (DDoS), S3 (SWA), ELB or&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212)); font-weight: normal;&quot;&gt;EC2.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Lambda@Edge facilitates compute on the Edge (a.k.a.,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Points of Presence (POP), which come in two flavours:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Traditional and Embedded&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudfront;" vertex="1" parent="1">
-          <mxGeometry x="6982" y="-230" width="78" height="78" as="geometry" />
+          <mxGeometry x="7004" y="-234" width="78" height="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
