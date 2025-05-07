@@ -1,11 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="All">
-    <mxGraphModel dx="1037" dy="4807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1244" dy="5048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-259" value="" style="fillColor=none;strokeColor=light-dark(#5A6C86,#61820B);dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;strokeWidth=10;" vertex="1" parent="1">
           <mxGeometry x="3170" y="3171" width="1460" height="1339" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-284" value="" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="3880" y="3394" width="340" height="470" as="geometry" />
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-144" value="" style="fillColor=none;strokeColor=light-dark(#5A6C86,#FF7F93);dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;strokeWidth=10;" vertex="1" parent="1">
           <mxGeometry x="4730" y="2942" width="1330" height="1388" as="geometry" />
@@ -2229,7 +2232,7 @@
           <mxGeometry x="5110" y="4130" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-12" value="&lt;b&gt;Simple Storage Service&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;(S3)&lt;/span&gt;&lt;/b&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" parent="1" vertex="1">
-          <mxGeometry x="3283" y="4178" width="78" height="78" as="geometry" />
+          <mxGeometry x="3330" y="3770" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-281" value="EFS can be combined with on-prem fil systems via Direct Connect" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-51" target="NzK-lVKZz_vgO-4xwUXG-53">
           <mxGeometry relative="1" as="geometry" />
@@ -2252,8 +2255,10 @@
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-272" value="Backup can manage FSx for Lustre backups" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-260" target="NzK-lVKZz_vgO-4xwUXG-266">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NzK-lVKZz_vgO-4xwUXG-273" value="Backup can manage Storage Gateway backups" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-260" target="NzK-lVKZz_vgO-4xwUXG-264">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-273" value="Backup can manage Storage Gateway backups" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="NzK-lVKZz_vgO-4xwUXG-264">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3351" y="3354" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-274" value="Backup can manage Aurora backups" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-260" target="GQwtv-Ke6I7whFhwhaPg-261">
           <mxGeometry relative="1" as="geometry">
@@ -2292,29 +2297,29 @@
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-263" value="File Cache&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Integrates with and, caches on-prem and cross-Region&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;cloud&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: normal; background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;object and file system storage in a unified view&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.file_cache;" vertex="1" parent="1">
           <mxGeometry x="3920" y="3200" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="NzK-lVKZz_vgO-4xwUXG-264" value="Storage Gateway" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.storage_gateway;" vertex="1" parent="1">
-          <mxGeometry x="3582" y="3930" width="78" height="78" as="geometry" />
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-264" value="|" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.storage_gateway;" vertex="1" parent="1">
+          <mxGeometry x="3663" y="3567" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-279" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.s3_on_outposts;" vertex="1" parent="1">
+          <mxGeometry x="3351" y="3950" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-280" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.glacier_deep_archive;" vertex="1" parent="1">
+          <mxGeometry x="3560" y="3962" width="75" height="78" as="geometry" />
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-265" value="&lt;b&gt;File System (FSx)&lt;/b&gt;&lt;div&gt;Allows for the migration of workloads based&lt;/div&gt;&lt;div&gt;on niche file systems to be migrated to the&lt;/div&gt;&lt;div&gt;cloud while remaining interoperable with on-prem&lt;/div&gt;&lt;div&gt;implementations via Direct Connect or VPN&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.fsx;" vertex="1" parent="1">
-          <mxGeometry x="3809" y="3970" width="78" height="78" as="geometry" />
+          <mxGeometry x="4011" y="3416" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="NzK-lVKZz_vgO-4xwUXG-266" value="&lt;b&gt;FSx for Lustre&lt;/b&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.fsx_for_lustre;" vertex="1" parent="1">
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-266" value="&lt;b&gt;FSx for Lustre&lt;/b&gt;&lt;div&gt;Compute-intensive&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.fsx_for_lustre;" vertex="1" parent="1">
           <mxGeometry x="3878" y="4170" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-267" value="FSx for NetApp ONTAP" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.fsx_for_netapp_ontap;" vertex="1" parent="1">
-          <mxGeometry x="4050" y="4131" width="78" height="78" as="geometry" />
+          <mxGeometry x="4089" y="3734" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-268" value="FSx for OpenZFS" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.fsx_for_openzfs;" vertex="1" parent="1">
-          <mxGeometry x="4230" y="4140" width="78" height="78" as="geometry" />
+          <mxGeometry x="3950" y="3734" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-269" value="FSx for Windows File Server" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.fsx_for_windows_file_server;" vertex="1" parent="1">
-          <mxGeometry x="4010" y="3970" width="78" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="NzK-lVKZz_vgO-4xwUXG-279" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.s3_on_outposts;" vertex="1" parent="1">
-          <mxGeometry x="3299" y="4320" width="78" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="NzK-lVKZz_vgO-4xwUXG-280" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.glacier_deep_archive;" vertex="1" parent="1">
-          <mxGeometry x="3473" y="4320" width="75" height="78" as="geometry" />
+          <mxGeometry x="3950" y="3594" width="78" height="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
