@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="All">
-    <mxGraphModel dx="1244" dy="5048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="622" dy="4324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2112,7 +2112,20 @@
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-190" value="Security Hub aggregates Inspector findings" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-164" target="NzK-lVKZz_vgO-4xwUXG-150">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NzK-lVKZz_vgO-4xwUXG-164" value="Security Hub" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.security_hub;" vertex="1" parent="1">
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-237" value="Security Hub is informed by Config" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-164" target="W_DcaWkSh4R2zv-vRci8-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6270" y="-690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-238" value="Security Hub supports Organisations" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-164" target="W_DcaWkSh4R2zv-vRci8-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6170" y="-1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-239" value="Security Hub aggregates finding from Macie" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-164" target="NzK-lVKZz_vgO-4xwUXG-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-164" value="Security Hub&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Allows you to have a view of your security posture by&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;aggregating security data from other services,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;informed by Config, it performs continuous and&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;automated checks against AWS best practices&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.security_hub;" vertex="1" parent="1">
           <mxGeometry x="4852" y="3930" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-166" value="Web Application Firewall (WAF)" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.waf;" vertex="1" parent="1">
