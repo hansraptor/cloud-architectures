@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="All">
-    <mxGraphModel dx="622" dy="4324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="829" dy="4565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2079,8 +2079,14 @@
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-161" value="Firewall Manager&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Allows you to centrally manage firewall rules&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;across&lt;/span&gt;&lt;span style=&quot;font-weight: normal; background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;&amp;nbsp;all your accounts in you Organisation&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.firewall_manager;" vertex="1" parent="1">
           <mxGeometry x="5154" y="3590" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="NzK-lVKZz_vgO-4xwUXG-162" value="Network Firewall" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.network_firewall;" vertex="1" parent="1">
-          <mxGeometry x="5202" y="4098" width="78" height="78" as="geometry" />
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-230" value="Network Firewalls secure VPCs" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-162" target="GQwtv-Ke6I7whFhwhaPg-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-231" value="Network Firewall works with Firewall Manager&lt;div&gt;for central policy management&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-162" target="NzK-lVKZz_vgO-4xwUXG-161">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-162" value="Network Firewall&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Protects you VPCs with fine-grained traffic control,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;integrations with Partner intelligence feeds, common&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;network threat protection, packet inspection, known&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;bad URL filtering&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.network_firewall;" vertex="1" parent="1">
+          <mxGeometry x="5150" y="3760" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-163" value="Resource Access Manager" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.resource_access_manager;" vertex="1" parent="1">
           <mxGeometry x="5322" y="4098" width="78" height="78" as="geometry" />
