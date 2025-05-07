@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="All">
-    <mxGraphModel dx="518" dy="4203" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1244" dy="5048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1765,7 +1765,7 @@
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-79" value="&lt;b&gt;Integrated Private Wireless on AWS&lt;/b&gt;&lt;div&gt;Integrates AWS services with cellular 5G/4G networks&lt;/div&gt;&lt;div&gt;across&amp;nbsp;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(0, 0, 0), rgb(189, 199, 212));&quot;&gt;Regions, Local Zones, Outposts and Snow Families&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(0, 0, 0), rgb(189, 199, 212));&quot;&gt;to provide enterprises with private wireless&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=none;shadow=0;dashed=0;shape=mxgraph.ios7.icons.wifi;pointerEvents=1;spacingTop=15;fontColor=light-dark(#000000,#BDC7D4);" vertex="1" parent="NzK-lVKZz_vgO-4xwUXG-77">
           <mxGeometry x="9.299999999999272" y="18" width="59.4" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="NzK-lVKZz_vgO-4xwUXG-82" value="Shield can serve as origin for CloudFront&lt;div&gt;to protect against DDoS attacks&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-80" target="NzK-lVKZz_vgO-4xwUXG-64">
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-82" value="Shield can serve as origin for CloudFront&lt;div&gt;to protect against DDoS attacks&lt;/div&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-153" target="NzK-lVKZz_vgO-4xwUXG-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-80" value="Shield" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.shield;" vertex="1" parent="1">
@@ -2031,12 +2031,6 @@
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-151" value="Macie&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Uses inventory evaluation, ML and pattern matching&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;to identify PHI, PII and, custom sensitive info types and,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;vulnerabilities such as public access, non-encryption and&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;buckets accessible from other AWS accounts&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.macie;" vertex="1" parent="1">
           <mxGeometry x="4873" y="3260" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="NzK-lVKZz_vgO-4xwUXG-152" value="Security Lake" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.security_lake;" vertex="1" parent="1">
-          <mxGeometry x="5401" y="3590" width="78" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="NzK-lVKZz_vgO-4xwUXG-153" value="Verified Permissions" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.verified_permissions;" vertex="1" parent="1">
-          <mxGeometry x="4852" y="3709" width="78" height="78" as="geometry" />
-        </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-154" value="Artifact" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.artifact;" vertex="1" parent="1">
           <mxGeometry x="4961" y="3709" width="78" height="78" as="geometry" />
         </mxCell>
@@ -2061,7 +2055,7 @@
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-163" value="Resource Access Manager" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.resource_access_manager;" vertex="1" parent="1">
           <mxGeometry x="5210" y="3849" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="NzK-lVKZz_vgO-4xwUXG-172" value="Security Hub aggregates findings from Detective" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-164" target="NzK-lVKZz_vgO-4xwUXG-147">
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-172" value="Security Hub aggregates findings from Detective" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-152" target="NzK-lVKZz_vgO-4xwUXG-147">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-174" value="Security Hub aggregates findings from GuardDuty" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-164" target="NzK-lVKZz_vgO-4xwUXG-149">
@@ -2118,6 +2112,27 @@
           <mxGeometry width="24" height="24" relative="1" as="geometry">
             <mxPoint x="12" y="12" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-201" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-164" target="NzK-lVKZz_vgO-4xwUXG-152">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5455" y="3849" as="sourcePoint" />
+            <mxPoint x="5197" y="3128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-202" value="Security Lake stores data in S3 Parquet" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-152" target="GQwtv-Ke6I7whFhwhaPg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-152" value="Security Lake&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Automates collection and, centralises viewing&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: normal; background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;and management&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212)); font-weight: normal;&quot;&gt;of security data from AWS environment, SaaS&lt;/span&gt;&lt;span style=&quot;font-weight: normal; background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212)); font-weight: normal;&quot;&gt;on-prem,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212)); font-weight: normal;&quot;&gt;cloud and&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212)); font-weight: normal;&quot;&gt;third-party sources. Backed by S3 and Parquet file format.&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.security_lake;" vertex="1" parent="1">
+          <mxGeometry x="5220.5" y="3250" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-203" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-80" target="NzK-lVKZz_vgO-4xwUXG-153">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5576" y="3849" as="sourcePoint" />
+            <mxPoint x="5579" y="1538" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzK-lVKZz_vgO-4xwUXG-153" value="Verified Permissions" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.verified_permissions;" vertex="1" parent="1">
+          <mxGeometry x="5552" y="3222" width="78" height="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
