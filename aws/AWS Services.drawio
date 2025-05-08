@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="All">
-    <mxGraphModel dx="2553" dy="5410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="6140" dy="8427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -215,13 +215,13 @@
           <mxGeometry width="106.36363636363636" height="106.36363636363636" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-94" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1760" y="2320" width="1280" height="880" as="geometry" />
+          <mxGeometry x="1800" y="2320" width="1180" height="810" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-93" value="" style="fillColor=none;strokeColor=light-dark(#5A6C86,#FF81D9);dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;strokeWidth=10;" parent="GQwtv-Ke6I7whFhwhaPg-94" vertex="1">
-          <mxGeometry width="1280" height="880.0000000000001" as="geometry" />
+          <mxGeometry width="1180" height="810.0000000000001" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-92" value="App Integration" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=48;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.application_integration;labelPosition=right;spacingLeft=15;" parent="GQwtv-Ke6I7whFhwhaPg-94" vertex="1">
-          <mxGeometry width="149.887754070179" height="149.887754070179" as="geometry" />
+          <mxGeometry width="127.18635949953577" height="127.18635949953577" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-13" value="Query data directly from S3&lt;div&gt;using standard SQL&lt;/div&gt;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="GQwtv-Ke6I7whFhwhaPg-2" target="GQwtv-Ke6I7whFhwhaPg-12" edge="1">
           <mxGeometry x="0.0032" relative="1" as="geometry">
@@ -324,13 +324,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-86" value="&lt;b&gt;Step Functions&lt;/b&gt;&lt;div&gt;A graphical console where you build multi-step visual workflows&lt;/div&gt;&lt;div&gt;that coordinate components of distributed applications&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;and&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;microservices, automatically handling retries&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.step_functions;" parent="1" vertex="1">
-          <mxGeometry x="2020" y="2498" width="78" height="78" as="geometry" />
+          <mxGeometry x="1980" y="2498" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-88" value="&lt;b&gt;Simple Workflow Service (SWF)&lt;/b&gt;&lt;div&gt;Fully managed state tracker and task coordinator that facilitate&amp;nbsp;&lt;/div&gt;&lt;div&gt;development of background jobs that have parallel or&amp;nbsp;&lt;/div&gt;&lt;div&gt;sequential steps&amp;nbsp;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.express_workflow;" parent="1" vertex="1">
-          <mxGeometry x="2750" y="2920" width="78" height="78" as="geometry" />
+          <mxGeometry x="2710" y="2920" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-80" value="&lt;b&gt;MQ (Apache ActiveMQ Classic &amp;amp; RabbitMQ)&lt;/b&gt;&lt;div&gt;Managed message broker service for Apache ActiveMQ and&amp;nbsp;&lt;br&gt;RabbitMQ using standard industry APIs and protocols,&lt;/div&gt;&lt;div&gt;making integration from current apps easy&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mq;" parent="1" vertex="1">
-          <mxGeometry x="2760" y="2692" width="78" height="78" as="geometry" />
+          <mxGeometry x="2720" y="2692" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-98" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="GQwtv-Ke6I7whFhwhaPg-87" target="GQwtv-Ke6I7whFhwhaPg-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -346,22 +346,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-87" value="&lt;b&gt;AppFlow&lt;/b&gt;&lt;div&gt;Transforms and transfers data from SaaS applications to AWS&lt;/div&gt;&lt;div&gt;services like S3 and Redshift either on a schedule, in&lt;/div&gt;&lt;div&gt;response to an event or on demand&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.appflow;" parent="1" vertex="1">
-          <mxGeometry x="2390" y="2498" width="78" height="78" as="geometry" />
+          <mxGeometry x="2350" y="2498" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-83" value="&lt;b&gt;B2B Data Interchange&lt;/b&gt;&lt;div&gt;Automates the transformation of transactional business data&lt;/div&gt;&lt;div&gt;in the form of EDI/X12 documents into JSON and XML to simplify&lt;/div&gt;&lt;div&gt;downstream data integrations&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.b2b_data_interchange;" parent="1" vertex="1">
-          <mxGeometry x="2760" y="2498" width="78" height="78" as="geometry" />
+          <mxGeometry x="2720" y="2498" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-85" value="&lt;b&gt;Managed Workflow for Apache Airflow (MWAA)&lt;/b&gt;&lt;div&gt;Fully managed orchestration service for Apache Airflow to&lt;/div&gt;&lt;div&gt;programmatically author, schedule and monitor workflows&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_workflows_for_apache_airflow;" parent="1" vertex="1">
-          <mxGeometry x="2390" y="2692" width="78" height="78" as="geometry" />
+          <mxGeometry x="2350" y="2692" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-81" value="&lt;b&gt;Simple Notification Service (SNS)&lt;/b&gt;&lt;div&gt;Pub/sub messaging service that can fan out messages&lt;/div&gt;&lt;div&gt;using push, SMS or email&amp;nbsp;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sns;" parent="1" vertex="1">
-          <mxGeometry x="2020" y="2950" width="78" height="78" as="geometry" />
+          <mxGeometry x="1980" y="2950" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-82" value="&lt;b&gt;Simple Queue Service (SQS)&lt;/b&gt;&lt;div&gt;Fully managed message queue service featuring standard&lt;/div&gt;&lt;div&gt;queues for at-least-once-delivery and best-effort-ordering and&amp;nbsp;&lt;/div&gt;&lt;div&gt;FIFO queues which guarantee single delivery and expected ordering&amp;nbsp;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" parent="1" vertex="1">
-          <mxGeometry x="2390" y="2950" width="78" height="78" as="geometry" />
+          <mxGeometry x="2350" y="2950" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-96" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="2020" y="2692" width="78" height="78" as="geometry" />
+          <mxGeometry x="1980" y="2692" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-84" value="&lt;b&gt;EventBridge&lt;/b&gt;&lt;div&gt;Event bus for event-driven applications, events being generated by&amp;nbsp;&lt;/div&gt;&lt;div&gt;custom applications, SaaS applications and other AWS services&lt;/div&gt;&lt;div&gt;and, it supports routing to control where data is sent&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eventbridge;" parent="GQwtv-Ke6I7whFhwhaPg-96" vertex="1">
           <mxGeometry width="78" height="78" as="geometry" />
