@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.1">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="All">
-    <mxGraphModel dx="2769" dy="5336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2234" dy="5831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2044,6 +2044,14 @@
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-154" value="Artifact&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;A library of compliance-related reports and agreements&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.artifact;" parent="1" vertex="1">
           <mxGeometry x="4870" y="3440" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="bFNk6KOGEaZ_97p5BuxV-10" value="Audit Manager collects evidence from Security Hub" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-157" target="NzK-lVKZz_vgO-4xwUXG-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bFNk6KOGEaZ_97p5BuxV-11" value="Audit Manager collects evidence from Comfig" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-157" target="W_DcaWkSh4R2zv-vRci8-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5650" y="-730" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-157" value="Audit Manager&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Simplifies and automates evidence collection during times&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;of audits, proving that controls are effective and translates&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;evidence into auditor-friendly reports&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.audit_manager;" parent="1" vertex="1">
           <mxGeometry x="5207" y="3420" width="78" height="78" as="geometry" />
