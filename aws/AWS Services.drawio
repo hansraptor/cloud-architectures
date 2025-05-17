@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.5">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="All">
-    <mxGraphModel dx="2968" dy="6724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1613" dy="5336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -184,14 +184,23 @@
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-194" value="Instance Types" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=1;fontColor=#5A6C86;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="2260" width="450" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="GQwtv-Ke6I7whFhwhaPg-139" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="3480" y="1420" width="1182" height="700" as="geometry" />
+        <mxCell id="GQwtv-Ke6I7whFhwhaPg-139" value="" style="group;fontColor=light-dark(#000000,#BDC7D4);" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="3480" y="1240" width="1182" height="880" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-138" value="" style="fillColor=none;strokeColor=light-dark(#5A6C86,#61820B);dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;strokeWidth=10;" parent="GQwtv-Ke6I7whFhwhaPg-139" vertex="1">
-          <mxGeometry width="1182" height="700" as="geometry" />
+          <mxGeometry width="1182" height="880" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-129" value="Cloud Financial Management" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=48;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cost_management;labelPosition=right;spacingLeft=15;" parent="GQwtv-Ke6I7whFhwhaPg-139" vertex="1">
           <mxGeometry x="2" width="121" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vlLSqd4gu_3nhjpOHt-6" value="AWS Pricing Calculator&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;A tool for estimating expenses&lt;/span&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=light-dark(#505050,#61820B);labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.calculator;fontStyle=1;fontColor=light-dark(#000000,#BDC7D4);" vertex="1" parent="GQwtv-Ke6I7whFhwhaPg-139">
+          <mxGeometry x="320" y="140" width="59.13" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vlLSqd4gu_3nhjpOHt-7" value="AWS TCO Calculator&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;An Excel spreadsheet for calculating&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;on-prem expenses, comparing it with&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;AWS costs and, estimating savings&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=light-dark(#505050,#61820B);labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.calculator;fontStyle=1;fontColor=light-dark(#000000,#BDC7D4);" vertex="1" parent="GQwtv-Ke6I7whFhwhaPg-139">
+          <mxGeometry x="530" y="160" width="59.13" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vlLSqd4gu_3nhjpOHt-8" value="AWS Simple Monthly Calculator&lt;div&gt;(SUPERSEDED BY PRICING CALCULATOR)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;A JavaScript-based tool for calculating&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;S3, EC2 and SQS costs&lt;/span&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=light-dark(#505050,#61820B);labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.calculator;fontStyle=1;fontColor=light-dark(#000000,#BDC7D4);" vertex="1" parent="GQwtv-Ke6I7whFhwhaPg-139">
+          <mxGeometry x="770" y="160" width="59.13" height="85" as="geometry" />
         </mxCell>
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-108" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="3180" y="2320" width="1280" height="780" as="geometry" />
@@ -2045,12 +2054,12 @@
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-154" value="Artifact&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;A library of compliance-related reports and agreements&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.artifact;" parent="1" vertex="1">
           <mxGeometry x="4870" y="3440" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="bFNk6KOGEaZ_97p5BuxV-10" value="Audit Manager collects evidence from Security Hub" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-157" target="NzK-lVKZz_vgO-4xwUXG-164">
+        <mxCell id="bFNk6KOGEaZ_97p5BuxV-10" value="Audit Manager collects evidence from Security Hub" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="NzK-lVKZz_vgO-4xwUXG-157" target="NzK-lVKZz_vgO-4xwUXG-164" edge="1">
           <mxGeometry x="0.1524" y="5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bFNk6KOGEaZ_97p5BuxV-11" value="Audit Manager collects evidence from Config" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-157" target="W_DcaWkSh4R2zv-vRci8-61">
+        <mxCell id="bFNk6KOGEaZ_97p5BuxV-11" value="Audit Manager collects evidence from Config" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="NzK-lVKZz_vgO-4xwUXG-157" target="W_DcaWkSh4R2zv-vRci8-61" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="5650" y="-730" as="targetPoint" />
           </mxGeometry>
@@ -2238,13 +2247,13 @@
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-242" value="&lt;b&gt;Standard&lt;/b&gt;&lt;div&gt;Available to all AWS customers at&lt;/div&gt;&lt;div&gt;no&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;charge and affords CloudFront and&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Route 53 protection against&lt;/div&gt;&lt;div&gt;infrastructure&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;&amp;nbsp;attacks (i.e.,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;layer 3 and 4,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;network and transport layers)&lt;/span&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=light-dark(#232F3D,#FF7F93);strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.shield2;" parent="1" vertex="1">
           <mxGeometry x="5586" y="4100" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="bFNk6KOGEaZ_97p5BuxV-7" value="WAF can protect API Gateway&amp;nbsp;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-166" target="NzK-lVKZz_vgO-4xwUXG-63">
+        <mxCell id="bFNk6KOGEaZ_97p5BuxV-7" value="WAF can protect API Gateway&amp;nbsp;" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="NzK-lVKZz_vgO-4xwUXG-166" target="NzK-lVKZz_vgO-4xwUXG-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bFNk6KOGEaZ_97p5BuxV-8" value="WAF can protect CloudFront" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-166" target="NzK-lVKZz_vgO-4xwUXG-64">
+        <mxCell id="bFNk6KOGEaZ_97p5BuxV-8" value="WAF can protect CloudFront" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="NzK-lVKZz_vgO-4xwUXG-166" target="NzK-lVKZz_vgO-4xwUXG-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bFNk6KOGEaZ_97p5BuxV-9" value="WAF can protect ALBs" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NzK-lVKZz_vgO-4xwUXG-166" target="NzK-lVKZz_vgO-4xwUXG-134">
+        <mxCell id="bFNk6KOGEaZ_97p5BuxV-9" value="WAF can protect ALBs" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="NzK-lVKZz_vgO-4xwUXG-166" target="NzK-lVKZz_vgO-4xwUXG-134" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-166" value="Web Application Firewall (WAF)&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Protects web apps and APIs from&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;common bot exploits with rules&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;that block attacks&lt;/span&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.waf;" parent="1" vertex="1">
@@ -2388,19 +2397,19 @@
         <mxCell id="Me6KZ-e09-LLOQmQ4gK6-56" value="Management Console" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.management_console;" parent="1" vertex="1">
           <mxGeometry x="1637" y="3811" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="bFNk6KOGEaZ_97p5BuxV-4" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="bFNk6KOGEaZ_97p5BuxV-4" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="6416" y="-1380" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="bFNk6KOGEaZ_97p5BuxV-2" value="&lt;b&gt;Compliance&lt;/b&gt;&lt;div&gt;Collects and reports data about status of patching&lt;/div&gt;&lt;div&gt;in Patch Manager and associations in State Manager.&lt;/div&gt;&lt;div&gt;Also supports custom compliance types&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=light-dark(#232F3D,#FF81D9);strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.shield2;" vertex="1" parent="bFNk6KOGEaZ_97p5BuxV-4">
+        <mxCell id="bFNk6KOGEaZ_97p5BuxV-2" value="&lt;b&gt;Compliance&lt;/b&gt;&lt;div&gt;Collects and reports data about status of patching&lt;/div&gt;&lt;div&gt;in Patch Manager and associations in State Manager.&lt;/div&gt;&lt;div&gt;Also supports custom compliance types&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=light-dark(#232F3D,#FF81D9);strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.shield2;" parent="bFNk6KOGEaZ_97p5BuxV-4" vertex="1">
           <mxGeometry width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="bFNk6KOGEaZ_97p5BuxV-3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;strokeWidth=3;strokeColor=light-dark(#000000,#FF81D9);" vertex="1" parent="bFNk6KOGEaZ_97p5BuxV-4">
+        <mxCell id="bFNk6KOGEaZ_97p5BuxV-3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;strokeWidth=3;strokeColor=light-dark(#000000,#FF81D9);" parent="bFNk6KOGEaZ_97p5BuxV-4" vertex="1">
           <mxGeometry x="32" y="32" width="34" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bFNk6KOGEaZ_97p5BuxV-5" value="Compliance collects data about Patch Manager patching statuses" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="bFNk6KOGEaZ_97p5BuxV-2" target="W_DcaWkSh4R2zv-vRci8-93">
+        <mxCell id="bFNk6KOGEaZ_97p5BuxV-5" value="Compliance collects data about Patch Manager patching statuses" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="bFNk6KOGEaZ_97p5BuxV-2" target="W_DcaWkSh4R2zv-vRci8-93" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bFNk6KOGEaZ_97p5BuxV-6" value="Compliance collsts data about associations in State Manager" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="bFNk6KOGEaZ_97p5BuxV-2" target="W_DcaWkSh4R2zv-vRci8-89">
+        <mxCell id="bFNk6KOGEaZ_97p5BuxV-6" value="Compliance collsts data about associations in State Manager" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="bFNk6KOGEaZ_97p5BuxV-2" target="W_DcaWkSh4R2zv-vRci8-89" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
