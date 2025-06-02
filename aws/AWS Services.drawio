@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.1">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="All">
-    <mxGraphModel dx="1158" dy="4074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1296" dy="4161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -121,7 +121,7 @@
         <mxCell id="GQwtv-Ke6I7whFhwhaPg-16" value="Integrated schemas" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="GQwtv-Ke6I7whFhwhaPg-91" source="GQwtv-Ke6I7whFhwhaPg-2" target="GQwtv-Ke6I7whFhwhaPg-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GQwtv-Ke6I7whFhwhaPg-66" value="&lt;b&gt;Lake Formation&lt;/b&gt;&lt;div&gt;Set up data lakes in days be pointing to existing data sources and,&lt;/div&gt;&lt;div&gt;Lake Formation will fetch, classify and catalog everything into a new&lt;/div&gt;&lt;div&gt;S3 bucket&amp;nbsp;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lake_formation;" parent="GQwtv-Ke6I7whFhwhaPg-91" vertex="1">
+        <mxCell id="GQwtv-Ke6I7whFhwhaPg-66" value="&lt;b&gt;Lake Formation&lt;/b&gt;&lt;div&gt;Set up data lakes in days by pointing to existing data sources and,&lt;/div&gt;&lt;div&gt;Lake Formation will fetch, classify and catalog everything into a new&lt;/div&gt;&lt;div&gt;S3 bucket&amp;nbsp;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lake_formation;" parent="GQwtv-Ke6I7whFhwhaPg-91" vertex="1">
           <mxGeometry x="1080" y="650" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="NzK-lVKZz_vgO-4xwUXG-8" value="" style="fillColor=none;strokeColor=light-dark(#5A6C86,#0E9D86);dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;strokeWidth=10;" parent="1" vertex="1">
