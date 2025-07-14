@@ -8,7 +8,16 @@
           <mxGeometry x="80" y="80" width="64" height="64" as="geometry" />
         </mxCell>
         <mxCell id="vcTekkizNSYmiupQggr4-4" value="Entra ID&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;(previously called &lt;/span&gt;Active Directory&lt;span style=&quot;font-weight: normal;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Represents an organisational structure/hierarchy&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;of accounts and profiles and stuff that reflect what&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Microsoft services and resources an organisation&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;has access to. It&#39;s also used to manage the identities&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;that use said services and resources.&lt;/span&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_Active_Directory.svg;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="230" y="290" width="70" height="64" as="geometry" />
+          <mxGeometry x="144" y="240" width="70" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTekkizNSYmiupQggr4-72" value="Networking" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;fillColor=none;dashed=1;strokeWidth=10;verticalAlign=top;align=left;spacingLeft=15;spacingTop=5;fontStyle=1;fontSize=42;" vertex="1" parent="1">
+          <mxGeometry x="20" y="620" width="870" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTekkizNSYmiupQggr4-73" value="Virtual Network (VNet)&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;A virtual network inside the Azure cloud&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;consisting of VPCs, Subnets, Routing Tables,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;etc.&lt;/span&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="144" y="730" width="67" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTekkizNSYmiupQggr4-74" value="Express Route&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Used to connect to private resources&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;inside a private VNet in the Azure cloud&lt;/span&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.express_route;pointerEvents=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="450" y="741" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
