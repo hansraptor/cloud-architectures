@@ -19,6 +19,9 @@
         <mxCell id="vcTekkizNSYmiupQggr4-74" value="Express Route&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Used to connect to private resources&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;inside a private VNet in the Azure cloud&lt;/span&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.express_route;pointerEvents=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="450" y="741" width="50" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="vcTekkizNSYmiupQggr4-75" value="VPN Gateway&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Used to connect to private resources&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;inside a private VNet in the Azure cloud&lt;/span&gt;&lt;/div&gt;" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VPN_Gateway.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="840" width="45" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
