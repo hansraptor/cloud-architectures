@@ -7,6 +7,9 @@
         <mxCell id="vcTekkizNSYmiupQggr4-2" value="&lt;b&gt;Azure Services&lt;/b&gt;" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=48;image=img/lib/azure2/general/All_Resources.svg;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;spacingLeft=15;" vertex="1" parent="1">
           <mxGeometry x="80" y="80" width="64" height="64" as="geometry" />
         </mxCell>
+        <mxCell id="vcTekkizNSYmiupQggr4-4" value="Entra ID&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;(previously called &lt;/span&gt;Active Directory&lt;span style=&quot;font-weight: normal;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Represents an organisational structure/hierarchy&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;of accounts and profiles and stuff that reflect what&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Microsoft services and resources an organisation&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;has access to. It&#39;s also used to manage the identities&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;that use said services and resources.&lt;/span&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_Active_Directory.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="230" y="290" width="70" height="64" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
