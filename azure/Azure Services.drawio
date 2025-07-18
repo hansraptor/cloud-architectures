@@ -17,10 +17,22 @@
           <mxGeometry x="144" y="730" width="67" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vcTekkizNSYmiupQggr4-74" value="Express Route&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Used to connect to private resources&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;inside a private VNet in the Azure cloud&lt;/span&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.express_route;pointerEvents=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="450" y="741" width="50" height="30" as="geometry" />
+          <mxGeometry x="390" y="866" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vcTekkizNSYmiupQggr4-75" value="VPN Gateway&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Used to connect to private resources&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;inside a private VNet in the Azure cloud&lt;/span&gt;&lt;/div&gt;" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VPN_Gateway.svg;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="452.5" y="840" width="45" height="50" as="geometry" />
+          <mxGeometry x="392.5" y="965" width="45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTekkizNSYmiupQggr4-76" value="Public IP Address&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Used to connect to public resources&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;in the Azure cloud&lt;/span&gt;&lt;/div&gt;" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/App_Service_IPAddress.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="152.5" y="860" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTekkizNSYmiupQggr4-77" value="Load Balancer&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Used to connect to public resources&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;in the Azure cloud&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_load_balancer;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="152.5" y="980" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTekkizNSYmiupQggr4-78" value="VNet Peering&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Allows resources in different&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;VNets to communicate&lt;/span&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Peerings.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="740" width="68" height="57.92" as="geometry" />
+        </mxCell>
+        <mxCell id="vcTekkizNSYmiupQggr4-79" value="Subnet&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Used to logically separate resources&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;based on team, department, environment&lt;/span&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Subnet.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="640" y="757.2" width="68" height="40.72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
